@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    width: 90%;
+    height: 80%;
+    box-shadow: 0px 0px 30px 0px hsl(240, 5%, 70%);
+}
+.qr-code-container{
+    background-color: hsl(0, 0%, 100%);
+    width: 260px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px hsl(240, 5%, 70%);
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 14px;
+    color: hsl(222, 5%, 57%);
+
+    margin-top: 20px;
+}
+
+img{
+    box-shadow: 0px 0px 10px 0px hsl(228, 45%, 44%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
